@@ -8,9 +8,16 @@
 }
 .pText {float:left;
     font-size: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
+
+
 header p {
     font-size: 10px;
+    position: relative;
+    top: 33;
+    left: -114px;
 }
 .logoText p {
 float: left;
