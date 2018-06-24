@@ -3,15 +3,15 @@
     font-size: 30px;
     font-family: 'Arizonia', cursive;
     margin: 0;
-    padding: 0;
-    
+    padding: 0; 
 }
-.pText {float:left;
+
+.pText {
+    float:left;
     font-size: 10px;
     margin-left: 10px;
     margin-right: 10px;
 }
-
 
 header p {
     font-size: 10px;
@@ -19,70 +19,83 @@ header p {
     top: 33;
     left: -114px;
 }
+
 .logoText p {
-float: left;
-
-margin: 0;
-padding: 0;
-
-
+    float: left;
+    margin: 0;
+    padding: 0;
 }
+
 .links {
     float: right;
 }
-.bodyStyle{
+
+.bodyStyle {
     width:901px;
     margin:0 auto;
     background-color:#fff;
 }
-ul{
+
+ul {
    float: left;
     list-style: none;
 }
+
 section {
    clear: both;
     overflow: hidden;
 }
+
 .recipeBackground {
     background-image: url("../img/list-bg.png");
 }
+
 input[type=checkbox]:checked + label.strikethrough{
     text-decoration: line-through;
 }
 
-
-.imageClass{float: left;     }
-.navBar{float: right;}
-
-
-
-
-
-
-  .recipeBackground { 
-    box-shadow: 0px 6px 6px 0px rgba(0,0,0,0.75);
-    background-image: url("../img/list-bg.png");
-margin-bottom: 75px;
+.imageClass {
+    float: left;     
 }
 
-    h1 {
-      font-family: Arial, Helvetica, sans-serif;
-      font-size: 30px;
-    }
+.navBar {
+    float: right;
+}
 
-    .button {
-      background-color: orangered;
-    
-      padding: 10px;
-      border: 1px solid;
-      color: white;
-      float:  right;
-    }
+.recipeBackground { 
+    box-shadow: 0px 6px 6px 0px rgba(0,0,0,0.75);
+    background-image: url("../img/list-bg.png");
+    margin-bottom: 75px;
+}
 
-    .buttontext {
-     
-     padding-bottom: 10px;
-     
-    }
-.imgGirl img {float: left;}
-footer{text-align: center;}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+section p .posted {
+    margin-top: 0px;
+}
+section h1 .chocoPizza {
+    margin-bottom: 0px;
+}
+
+.button {
+    background-color: orangered;
+
+    padding: 10px;
+    border: 1px solid;
+    color: white;
+    float:  right;
+}
+
+.buttontext {
+    padding-bottom: 10px;
+}
+
+.imgGirl img {
+    float: left;
+}
+
+footer{
+    text-align: center;
+}
